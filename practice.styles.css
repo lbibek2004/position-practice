@@ -1,0 +1,65 @@
+.universal{
+    position: relative;
+}
+.container1{
+    height: 80px;
+    width: 120px;
+    background-color: red;
+    border: none;
+}
+.container2{
+    height: 80px;
+    width: 120px;
+    background-color: green;
+    border: none;
+    position: absolute;
+    left: 30px;
+    top: 30px;
+}
+.container3{
+    height: 80px;
+    width: 120px;
+    background-color: blue;
+    border: none;
+    position: absolute;
+    margin-left: 60px;
+    margin-top: -20px;
+}
+.container3 p{
+    display: none;
+}
+.container3:hover{
+ p{
+    display: block;
+ }
+}
+
+/* .meme {
+    height: 400px;
+    width: 400px;
+} */
+
+.img-container {
+    position: relative;
+    height: 1000px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background: url("https://media.wired.com/photos/5c9ba67d1e34481170ef2bcd/191:100/w_1280,c_limit/Culture_Matrix_RedPillBluePill-1047403844.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ #btn-1 {
+    height: 160px;
+    width: 200px;
+    margin-left: 18%;
+    opacity: 0;
+} 
+ #btn-2{
+    height: 160px;
+    width: 200px;
+    margin-right: 18%;
+    opacity: 0;
+} 
